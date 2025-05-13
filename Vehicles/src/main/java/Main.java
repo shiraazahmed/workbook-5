@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+        Car car = new Car("Red", 5, 500, 50, 2.0, "Petrol", 4, "Red");
         car.setColor("Red");
         car.setEngineSize(2.0);
         car.setFuelType("Petrol");
         car.setNumberOfDoors(4);
 
-        Moped moped = new Moped();
+        Moped moped = new Moped("Blue", 2, 0, 5, "Blue", 60.0, 100);
         moped.setColor("Blue");
         moped.setMaxSpeed(60.0);
         moped.setMileage(100);
 
-        SemiTruck truck = new SemiTruck();
+        SemiTruck truck = new SemiTruck("Green", 2, 20000, 300, 18, 20000);
         truck.setNumberOfWheels(18);
         truck.setCargoCapacity(20000);
 
