@@ -3,6 +3,13 @@ public class Moped extends Vehicle {
     private double maxSpeed;
     private int mileage;
 
+    public Moped(String color, int passengerNum, int cargoCapacity, int fuelCapacity, String color1, double maxSpeed, int mileage) {
+        super(color, passengerNum, cargoCapacity, fuelCapacity);
+        this.color = color1;
+        this.maxSpeed = maxSpeed;
+        this.mileage = mileage;
+    }
+
     public String getColor() {
         return color;
     }
