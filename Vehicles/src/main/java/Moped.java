@@ -1,4 +1,4 @@
-public class Moped {
+public class Moped extends Vehicle {
     private String color;
     private double maxSpeed;
     private int mileage;

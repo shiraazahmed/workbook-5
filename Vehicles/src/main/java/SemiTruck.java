@@ -1,4 +1,4 @@
-public class SemiTruck {
+public class SemiTruck extends Vehicle {
     private int numberOfWheels;
     private int cargoCapacity;
 
